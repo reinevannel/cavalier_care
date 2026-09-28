@@ -34,7 +34,7 @@ const recipes: Recipe[] = [
     prep: '25 min',
     portion: '270–290 g / jour',
     frequency: 'Tous les jours',
-    image: '/recipes/digestive.jpg',
+    image:  `${import.meta.env.BASE_URL}recipes/digestive.jpg`,
     desc: "La recette du quotidien, douce pour l'estomac et parfaitement équilibrée. Idéale pour les Cavaliers à digestion sensible.",
     ingredients: [
       "300 g de poulet (cuisse ou blanc) cuit",
@@ -75,7 +75,7 @@ const recipes: Recipe[] = [
     prep: '30 min',
     portion: '260–280 g',
     frequency: '2 à 3 fois par semaine',
-    image: '/recipes/cardiac.jpg',
+    image: `${import.meta.env.BASE_URL}recipes/cardiac.jpg`,
     desc: "Spécialement conçue pour soutenir le cœur, point faible numéro 1 des Cavaliers. Riche en oméga-3 et taurine naturelle.",
     ingredients: [
       "250 g de saumon ou sardines cuites (sans arêtes)",
@@ -117,7 +117,7 @@ const recipes: Recipe[] = [
     prep: '20 min',
     portion: '285–300 g',
     frequency: 'Jours très actifs',
-    image: '/recipes/energy.jpg',
+    image: `${import.meta.env.BASE_URL}recipes/energy.jpg`,
     desc: "Pour les journées pleines d'aventures. Apporte de l'énergie durable sans surcharger la digestion.",
     ingredients: [
       "280 g de dinde hachée cuite",
@@ -158,7 +158,7 @@ const recipes: Recipe[] = [
     prep: '15 min',
     portion: '200–250 g',
     frequency: '2 à 4 jours max',
-    image: '/recipes/bland.jpg',
+    image: `${import.meta.env.BASE_URL}recipes/bland.jpg`,
     desc: "Version bland diet améliorée. À utiliser en cas de diarrhée ou d'estomac très fragile. Très digeste, reposante pour l'intestin.",
     ingredients: [
       "200 g de poulet blanc bouilli",
@@ -193,7 +193,7 @@ const recipes: Recipe[] = [
     prep: '35 min + 25 min four',
     portion: '2 à 4 biscuits / jour max',
     frequency: 'Occasionnel',
-    image: '/recipes/biscuits.jpg',
+    image: `${import.meta.env.BASE_URL}recipes/biscuits.jpg`,
     desc: "Des biscuits maison croustillants et naturellement sucrés, parfaits pour faire plaisir sans culpabiliser. Idéals en récompense pendant le dressage ou en goûter.",
     ingredients: [
       "1 grosse patate douce cuite écrasée (environ 250 g)",
@@ -227,7 +227,7 @@ const recipes: Recipe[] = [
     prep: '10 min + 30 min frigo',
     portion: '1 à 2 boules / jour max',
     frequency: 'Occasionnel',
-    image: '/recipes/balls.jpg',
+    image: `${import.meta.env.BASE_URL}recipes/balls.jpg`,
     desc: "Petites boules ultra-gourmandes et énergétiques. Parfaites après une longue promenade ou comme récompense très motivante.",
     ingredients: [
       "3 c. à soupe de beurre de cacahuète 100 % naturel (sans xylitol, sans sucre ajouté, sans sel)",
@@ -259,7 +259,7 @@ const recipes: Recipe[] = [
     prep: '60 min + congélation',
     portion: '2 à 4 cubes / jour',
     frequency: 'Tous les jours si besoin',
-    image: '/recipes/broth.jpg',
+    image: `${import.meta.env.BASE_URL}recipes/broth.jpg`,
     desc: "Des petits cubes de bouillon maison ultra digestes. Parfaits pour hydrater, faire plaisir ou accompagner un repas quand l'appétit est capricieux.",
     ingredients: [
       "500 ml d'eau",
@@ -297,7 +297,7 @@ const recipes: Recipe[] = [
     prep: '10 min + 2h four',
     portion: 'Une petite poignée',
     frequency: 'Occasionnel',
-    image: '/recipes/chips.jpg',
+    image: `${import.meta.env.BASE_URL}recipes/chips.jpg`,
     desc: "Des chips 100 % naturelles, croustillantes et ultra légères. L'alternative healthy aux friandises industrielles.",
     ingredients: [
       "3 à 4 grosses carottes",
