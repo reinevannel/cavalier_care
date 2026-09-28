@@ -7,7 +7,7 @@ import NyxDog, { Expression } from '../components/NyxDog'
 import NyxBubble from '../components/NyxBubble'
 import ChoiceButtons from '../components/ChoiceButtons'
 import { readTodayRecipe, RATION_EVENT, type TodayRecipe } from '../ration'
-const nyxCrown = `${import.meta.env.BASE_URL}photos/crown.jpg'
+const nyxCrown = `${import.meta.env.BASE_URL}photos/crown.jpg`
 
 interface FormState {
   weight: number
