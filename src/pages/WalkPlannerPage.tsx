@@ -5,10 +5,10 @@ import { useState, useMemo } from 'react'
 import NyxDog from '../components/NyxDog'
 import NyxBubble from '../components/NyxBubble'
 import ChoiceButtons from '../components/ChoiceButtons'
-const nyxForest = '/photos/forest.jpg'
-const nyxRunning = '/photos/running.jpg'
-const nyxLake = '/photos/lake.jpg'
-const nyxField = '/photos/runfield.jpg'
+const nyxForest = `${import.meta.env.BASE_URL}photos/forest.jpg'
+const nyxRunning = `${import.meta.env.BASE_URL}photos/running.jpg'
+const nyxLake = `${import.meta.env.BASE_URL}photos/lake.jpg'
+const nyxField = `${import.meta.env.BASE_URL}photos/runfield.jpg'
 
 interface WalkForm {
   weather: string
