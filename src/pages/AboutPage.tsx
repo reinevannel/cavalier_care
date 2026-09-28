@@ -4,9 +4,9 @@
 import { Page } from '../App'
 import NyxDog from '../components/NyxDog'
 
-const nyxLeaves = `${import.meta.env.BASE_URL}photos/leaves.jpg'
-const nyxChurch = `${import.meta.env.BASE_URL}photos/church.jpg'
-const nyxSit = `${import.meta.env.BASE_URL}photos/sit.jpg'
+const nyxLeaves = `${import.meta.env.BASE_URL}photos/leaves.jpg`
+const nyxChurch = `${import.meta.env.BASE_URL}photos/church.jpg`
+const nyxSit = `${import.meta.env.BASE_URL}photos/sit.jpg`
 
 interface AboutPageProps {
   navigate: (p: Page) => void

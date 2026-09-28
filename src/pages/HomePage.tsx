@@ -2,9 +2,9 @@
  * Accueil : présentation, photos de Nyx, et liens vers les outils.
  */
 import { Page } from '../App'
-const nyxAutumn = `${import.meta.env.BASE_URL}photos/autumn.jpg'
-const nyxWalk = `${import.meta.env.BASE_URL}photos/walk.jpg'
-const nyxClover = `${import.meta.env.BASE_URL}photos/clover.jpg'
+const nyxAutumn = `${import.meta.env.BASE_URL}photos/autumn.jpg`
+const nyxWalk = `${import.meta.env.BASE_URL}photos/walk.jpg`
+const nyxClover = `${import.meta.env.BASE_URL}photos/clover.jpg`
 
 interface HomePageProps {
   navigate: (p: Page) => void
