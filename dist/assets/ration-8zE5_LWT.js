@@ -1,0 +1,1 @@
+var e=`cavaliercare-ration-du-jour`,t=`cavaliercare-ration`;function n(n){let r={...n,at:Date.now()};localStorage.setItem(e,JSON.stringify(r)),window.dispatchEvent(new Event(t))}function r(){try{let t=localStorage.getItem(e);if(!t)return null;let n=JSON.parse(t);return new Date(n.at).toDateString()===new Date().toDateString()?n:null}catch{return null}}export{r as n,n as r,t};
