@@ -6,12 +6,12 @@ import NyxDog, { Expression } from '../components/NyxDog'
 const nyxLeaves = `${import.meta.env.BASE_URL}photos/leaves.jpg`
 
 const gallery = [
-  { src: `${import.meta.env.BASE_URL}photos/lake.jpg`, alt: 'Nyx au bord du lac, au soleil' },
-  { src: `${import.meta.env.BASE_URL}photos/church.jpg`, alt: 'Nyx devant l'église, en promenade' },
-  { src: `${import.meta.env.BASE_URL}photos/sit.jpg`, alt: 'Nyx assise dans l'herbe' },
-  { src: `${import.meta.env.BASE_URL}photos/runfield.jpg`, alt: 'Nyx qui court dans le pré' },
-  { src: `${import.meta.env.BASE_URL}photos/toy.jpg`, alt: 'Nyx avec son doudou' },
-  { src: `${import.meta.env.BASE_URL}photos/sleep.jpg`, alt: 'Nyx endormie' },
+  { src: `${import.meta.env.BASE_URL}photos/lake.jpg`, alt: "Nyx au bord du lac, au soleil" },
+  { src: `${import.meta.env.BASE_URL}photos/church.jpg`, alt: "Nyx devant l'église, en promenade" },
+  { src: `${import.meta.env.BASE_URL}photos/sit.jpg`, alt: "Nyx assise dans l'herbe" },
+  { src: `${import.meta.env.BASE_URL}photos/runfield.jpg`, alt: "Nyx qui court dans le pré" },
+  { src: `${import.meta.env.BASE_URL}photos/toy.jpg`, alt: "Nyx avec son doudou" },
+  { src: `${import.meta.env.BASE_URL}photos/sleep.jpg`, alt: "Nyx endormie" },
 ]
 
 const moods: { id: Expression; label: string; icon: string; bubble: string }[] = [
