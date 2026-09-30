@@ -138,9 +138,14 @@ npm install
 npm run dev
 
 ```
+---
 
+## ✍️ Author
 
-## ❤️ Fait avec amour pour les Cavaliers King Charles et leurs humains.
+🦋 **Reine Vannel Studio**  
+UX Designer & Front-End Developer  
+
+Créé avec ❤️ — pour les Cavaliers King Charles et leurs humains.
 
 
 
